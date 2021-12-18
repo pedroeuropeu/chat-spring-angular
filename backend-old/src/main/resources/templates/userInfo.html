@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:include="layout :: headerFragment">
+</head>
+<body>
+	<div id="container">
+		<h1>
+			Hello, <span th:text="${username}">--name--</span>.
+		</h1>
+		<h3>
+			<a th:href="@{/swagger-ui.html}">Acess API</a>
+		</h3>
+	</div>
+</body>
+</html>
