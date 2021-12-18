@@ -9,12 +9,16 @@ In many web applications, websockets are used to push messages to a client for r
 
 # firts steps
 ## on frontend
+
+```
 npm install 
 npm start
-
+```
 ## on backend
+```
 mvn clean install
 mvn spring-boot:run
+```
 
 # Original Article
 https://haseeamarathunga.medium.com/create-a-spring-boot-angular-websocket-using-sockjs-and-stomp-cb339f766a98
